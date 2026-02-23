@@ -1,7 +1,8 @@
 /*
  * HarmonyMagic StartPage
  * Copyright (C) 2026 anjisuan608 <anjisuan608@petalmail.com> and contributors
- *
+ * Copyright (C) 2026 CHN-Nine9 <2638200842@qq.com> and contributors
+ * 
  * SPDX-License-Identifier: GPL-3.0-or-later
  * 
  * This program is free software: you can redistribute it and/or modify
@@ -21,10 +22,11 @@
 // 控制台输出
 console.log(`
 \x1b[32m
-Harmony Magic Start Page
+Harmony Magic Start Page - Nine9 Edition
 欢迎来到和谐魔法起始页!
 \x1b[0m
 © 2026 anjisuan608
+© 2026 CHN-Nine9
 Licensed under GPLv3
 `);
 
