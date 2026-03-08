@@ -2741,8 +2741,8 @@ document.addEventListener('DOMContentLoaded', async function() {
     }
 
     // GPLv3许可证提示
-    function gplNotice() {
-        sendNotice('检测到按下开发工具热键<br>请遵守<strong>GPLv3</strong>许可协议', 'info', { customDuration: 8000 });
+    function AgplNotice() {
+        sendNotice('检测到按下开发工具热键<br>请遵守<strong>AGPLv3</strong>许可协议', 'info', { customDuration: 8000 });
     }
 
     // 壁纸/网络连接超时通知（error级别）
@@ -2818,19 +2818,19 @@ document.addEventListener('DOMContentLoaded', async function() {
     document.addEventListener('keydown', function(e) {
         // F12键
         if (e.key === 'F12') {
-            gplNotice();
+            AgplNotice();
         }
         // Ctrl+Shift+I 组合键
         if (e.ctrlKey && e.shiftKey && e.key === 'I') {
-            gplNotice();
+            AgplNotice();
         }
         // Ctrl+Shift+J 组合键 (Chrome开发者工具另一种打开方式)
         if (e.ctrlKey && e.shiftKey && e.key === 'J') {
-            gplNotice();
+            AgplNotice();
         }
         // Ctrl+Shift+C 组合键 (Chrome开发者工具Elements面板)
         if (e.ctrlKey && e.shiftKey && e.key === 'C') {
-            gplNotice();
+            AgplNotice();
         }
     });
 
